@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "*",
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
@@ -26,7 +26,7 @@ app.use(cors({
 
 app.options('*', cors());
 
-const URI = "mongodb+srv://admin:admin@cluster0.bzwszrk.mongodb.net/Volunteer-Verse?retryWrites=true&w=majority&appName=Cluster0";
+const URI = "mongodb://localhost:27017/Volunteer-Verse";
 mongoose.connect(URI).then(() => {
   console.log("DB connected Sucessfully");
 }
