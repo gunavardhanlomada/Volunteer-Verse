@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Volunteer-Verse - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    code {
-      background: #f4f4f4;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-family: monospace;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      overflow-x: auto;
-      border-left: 4px solid #ccc;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    a {
-      color: #3498db;
-    }
-  </style>
-</head>
-<body>
+<div>
 
   <h1>🌍 Volunteer-Verse</h1>
 
@@ -95,5 +62,4 @@ npm start      # Start the server
   <h2>📄 License</h2>
   <p>This project is open-source and available under the <a href="https://github.com/gunavardhanlomada/Volunteer-Verse/blob/main/LICENSE" target="_blank">MIT License</a>.</p>
 
-</body>
-</html>
+</div>
