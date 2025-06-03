@@ -51,7 +51,7 @@ npm start      # Start the server
 
   <h2>🔍 Notes</h2>
   <ul>
-    <li>The backend server typically runs on <code>http://localhost:5000/</code></li>
+    <li>The backend server typically runs on <code>http://localhost:8081/</code></li>
     <li>The frontend React app usually runs on <code>http://localhost:3000/</code></li>
     <li>Make sure MongoDB is running on the default port <code>27017</code> or update the MongoDB URI in the configuration.</li>
   </ul>
